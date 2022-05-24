@@ -43,21 +43,21 @@
             <li class="nav-item mx-2">
               <a
                 class="nav-link"
-                href="/skills"
-                @click.prevent="$emit('scroll', 'skills')"
+                href="/project"
+                @click.prevent="$emit('scroll', 'project')"
                 :class="{ 'text-light': nightMode }"
               >
-                skills
+                projects
               </a>
             </li>
             <li class="nav-item mx-2">
               <a
                 class="nav-link"
-                href="/project"
-                @click.prevent="$emit('scroll', 'project')"
+                href="/skills"
+                @click.prevent="$emit('scroll', 'skills')"
                 :class="{ 'text-light': nightMode }"
               >
-                portfolio
+                skills
               </a>
             </li>
             <li class="nav-item mx-2">

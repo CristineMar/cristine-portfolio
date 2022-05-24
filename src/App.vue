@@ -74,10 +74,10 @@ export default {
     scrollTo(ele) {
       if (ele == "home") {
         this.$router.push(`/`);
-        window.scrollTo({ top: -80, behavior: "smooth" });
+        window.scrollTo({ top: - 70, behavior: "smooth" });
       } else {
         var elementPosition = document.getElementById(ele).offsetTop;
-        window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
+        window.scrollTo({ top: elementPosition - 65, behavior: "smooth" });
         if (this.$router.history.current.path !== `/${ele}`)
           this.$router.push(`/${ele}`);
       }
