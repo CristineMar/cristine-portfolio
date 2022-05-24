@@ -20,7 +20,7 @@
           <div class="mt-5 d-flex justify-content-center">
             <a
               class="btn btn-outline-primary btn-lg"
-              href="/about"
+              href="/aboutme"
               @click.prevent="$emit('scroll', 'about')"
               :class="{ 'text-light': nightMode }"
               aria-label="darkMode button"

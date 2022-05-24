@@ -24,7 +24,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-2">
               <a class="nav-link"
-                href="/about"
+                href="/aboutme"
                 @click.prevent="$emit('scroll', 'about')"
                 :class="{ 'text-light': nightMode }">
                 about

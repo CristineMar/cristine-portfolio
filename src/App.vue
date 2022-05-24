@@ -3,7 +3,7 @@
     <Navbar @scroll="scrollTo" @nightMode="switchMode" :nightMode="nightMode" />
     <div class="parent">
       <Home @scroll="scrollTo" :nightMode="nightMode"  style="height: 100vh" class="d-flex align-items-center "/>
-      <About id="about" :nightMode="nightMode" style="height: 100%" class="d-flex align-items-center"/>
+      <About id="aboutme" :nightMode="nightMode" style="height: 100%" class="d-flex align-items-center"/>
      <!--  <hr class="dashed" :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"> -->
      <Projects id="project" :nightMode="nightMode"/>
       <Skills id="skills" :nightMode="nightMode" />
@@ -48,7 +48,7 @@ export default {
   },
   mounted() {
     
-    ["about", "contact", "skills", "project"].forEach((l) => {
+    ["aboutme", "contact", "skills", "project"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });

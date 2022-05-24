@@ -17,36 +17,21 @@ let info = {
   },
   education: [
     {
-      name: "Sapienza Università di Roma",
-      place: "italy",
-      date: "May, 2009 - May, 2011",
-      degree: "Economics Science",
-      gpa: "3.7/4.0",
-
-      skills: [
-        // "Skills gained:",
-        // "Design, conduct and interpret research and statistical analysis. ",
-        // "Apply an evidence-based approach to problems.",
-        // "Communicate findings using models, charts and graphs.",
-        // "Communicate research findings using clear, accurate, concise writing.",
-      ],
-    },
-    {
-      name: "Ilbah workshops",
-      course: "Full Stack Developer",
-      place: "Bucharest/Romania",
-      date: "May, 2021 - Oct, 2021",
-      degree: "Bachelors in Programmer Help, cod COR 351201",
-      gpa: "8.5/10.0",
+      name: "",
+      course: "",
+      place: "",
+      date: "",
+      degree: "",
+      gpa: "",
       description: "",
-      skills: ["HTML5", "CSS3", "JavaScript", "OOP", "PHP", "MySql", "Laravel"],
+      skills: ["HTML5", "CSS3", "JavaScript", "PHP", "MySql", "Laravel"],
     },
   ],
   experience: [
     {
-      name: "Freelancer",
-      place: "Bucharest, Romania",
-      date: "Aug, 2021 - Present",
+      name: "",
+      place: "",
+      date: "",
       position: "Full Stack Web Developer",
       description:
         "Developing Front-end website architecture.Designing user interactions on web pages.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental Front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as  React.js, and Vue.js.",
@@ -84,7 +69,7 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Todo-application",
+      name: "",
       pictures: [
         /* {
             img: require("./src/assets/portfolio/todo-application/one.png")
@@ -121,27 +106,6 @@ let info = {
       visit: "https://grocery-listing-react.netlify.app/",
       description:
         "Grocery-listing-react it's a simple app that can help you doing shoppings.",
-    },
-    {
-      name: "Gitscores",
-      pictures: [
-        /* {
-            img: require("./src/assets/portfolio/Gitscores/one.png")
-          },
-          {
-            img: require("./src/assets/portfolio/Gitscores/two.png")
-          },
-          {
-            img: require("./src/assets/portfolio/Gitscores/three.png")
-          }, */
-      ],
-      technologies: ["JavaScript", "CSS", "EJS", "Herokuapp"],
-      category: "Scoring app for Github",
-      github: "https://github.com/Natain/gitscores",
-      date: "Aug, 2021 - Sep, 2021",
-      visit: "https://gitscores.herokuapp.com/",
-      description:
-        "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn.",
     },
   ],
   recommendations: [
