@@ -118,7 +118,8 @@
                   class="btn btn-outline-primary border-btn"
                   :class="{ 'text-light': nightMode }"
                   data-bs-dismiss="modal"
-                  value="Send">
+                  value="Send"
+                  :disabled="!message || !name || !email || !subject">
                   Send
                 </button>
               </div>
@@ -210,6 +211,11 @@ export default {
   background-color: #e28194 !important;
   border-color: #e28194 !important;
   color: white;
+}
+
+.btn-outline-primary:disabled {
+    color: #e28194;
+    background-color: transparent;
 }
 
 .border-btn {
