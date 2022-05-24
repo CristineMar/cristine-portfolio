@@ -136,19 +136,19 @@ p {
   0% {
     content: "I'm a web-developer. Nice to meet you.";
   }
-  20% {
+  30% {
     content: "Soy un desarrollador web. Un placer conocerte.";
   }
-  35% {
+  45% {
     content: "Sono uno sviluppatore web. Piacere di conoscerti.";
   }
-  50% {
+  60% {
     content: "저는 웹 개발자입니다. 만나서 반갑습니다.";
   }
-  65% {
+  75% {
     content: "私はWeb開発者です。お会いできて嬉しいです。";
   }
-  80% {
+  85% {
     content: "Jag är webbutvecklare. Trevligt att träffas.";
   }
   100% {
@@ -158,7 +158,7 @@ p {
 
 .change_content:after {
   content: "";
-  animation: changetext 8s infinite linear;
+  animation: changetext 10s infinite linear;
 }
 
 .txt-black {
