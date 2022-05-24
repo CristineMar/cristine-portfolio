@@ -2,24 +2,34 @@
   <div id="app" :class="{ 'text-dark': !nightMode, 'text-light': nightMode }">
     <Navbar @scroll="scrollTo" @nightMode="switchMode" :nightMode="nightMode" />
     <div class="parent">
-      <Home @scroll="scrollTo" :nightMode="nightMode"  style="height: 100vh" class="d-flex align-items-center "/>
-      <About id="aboutme" :nightMode="nightMode" style="height: 100%" class="d-flex align-items-center"/>
-     <!--  <hr class="dashed" :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"> -->
-     <Projects id="project" :nightMode="nightMode"/>
+      <Home
+        @scroll="scrollTo"
+        :nightMode="nightMode"
+        style="height: 100vh"
+        class="d-flex align-items-center"
+      />
+      <About
+        id="aboutme"
+        :nightMode="nightMode"
+        style="height: 100%"
+        class="d-flex align-items-center"
+      />
+      <!--  <hr class="dashed" :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"> -->
+      <Projects id="project" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
       <Contact id="contact" :nightMode="nightMode" />
-      <Footer id="footer" :nightMode="nightMode"/>
+      <Footer id="footer" :nightMode="nightMode" />
     </div>
   </div>
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import Projects from './components/Projects.vue'
-import Skills from './components/Skills.vue'
-import Contact from './components/Contact.vue'
+import Home from "./components/Home.vue";
+import About from "./components/About.vue";
+import Projects from "./components/Projects.vue";
+import Skills from "./components/Skills.vue";
+import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer";
 
 import info from "./info";
@@ -47,7 +57,6 @@ export default {
     }
   },
   mounted() {
-    
     ["aboutme", "contact", "skills", "project"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
@@ -92,13 +101,17 @@ export default {
   }
 }
 
-h1, h2, h3{
-    font-family: 'glacial_indifferenceregular' , sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "glacial_indifferenceregular", sans-serif;
 }
 
 .shadow {
--webkit-box-shadow: 0px 10px 13px -7px #000000, 9px -23px 21px -9px rgba(168,168,168,0); 
-box-shadow: 0px 10px 13px -7px #000000, 9px -23px 21px -9px rgba(168,168,168,0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    9px -23px 21px -9px rgba(168, 168, 168, 0);
+  box-shadow: 0px 10px 13px -7px #000000,
+    9px -23px 21px -9px rgba(168, 168, 168, 0);
 }
 
 .parent {
@@ -138,8 +151,14 @@ box-shadow: 0px 10px 13px -7px #000000, 9px -23px 21px -9px rgba(168,168,168,0);
 .dashed {
   border: none;
   height: 2px !important;
-  background: #FEBFCB;
-  background: repeating-linear-gradient(90deg,#FEBFCB,#FEBFCB 6px,transparent 6px,transparent 12px);
+  background: #febfcb;
+  background: repeating-linear-gradient(
+    90deg,
+    #febfcb,
+    #febfcb 6px,
+    transparent 6px,
+    transparent 12px
+  );
   margin: 0%;
 }
 

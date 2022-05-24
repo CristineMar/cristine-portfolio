@@ -21,7 +21,7 @@
             <a
               class="btn btn-outline-primary btn-lg"
               href="/aboutme"
-              @click.prevent="$emit('scroll', 'about')"
+              @click.prevent="$emit('scroll', 'aboutme')"
               :class="{ 'text-light': nightMode }"
               aria-label="darkMode button"
             >

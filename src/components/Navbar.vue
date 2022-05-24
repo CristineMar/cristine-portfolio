@@ -1,12 +1,20 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" :class="{
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      :class="{
         'bg-light': !nightMode,
         'navbar-blur': navbarConfig.blur,
         'bg-dark2': nightMode,
-      }">
+      }"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" @click.prevent="$emit('scroll', 'home')"><Logo :nightMode="nightMode" /></a>
+        <a
+          class="navbar-brand"
+          href="#"
+          @click.prevent="$emit('scroll', 'home')"
+          ><Logo :nightMode="nightMode"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,36 +31,44 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-2">
-              <a class="nav-link"
+              <a
+                class="nav-link"
                 href="/aboutme"
-                @click.prevent="$emit('scroll', 'about')"
-                :class="{ 'text-light': nightMode }">
+                @click.prevent="$emit('scroll', 'aboutme')"
+                :class="{ 'text-light': nightMode }"
+              >
                 about
-                </a>
+              </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link"
+              <a
+                class="nav-link"
                 href="/skills"
                 @click.prevent="$emit('scroll', 'skills')"
-                :class="{ 'text-light': nightMode }">
+                :class="{ 'text-light': nightMode }"
+              >
                 skills
-                </a>
+              </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link"
+              <a
+                class="nav-link"
                 href="/portfolio"
                 @click.prevent="$emit('scroll', 'portfolio')"
-                :class="{ 'text-light': nightMode }">
+                :class="{ 'text-light': nightMode }"
+              >
                 portfolio
-                </a>
+              </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link"
+              <a
+                class="nav-link"
                 href="/contact"
                 @click.prevent="$emit('scroll', 'contact')"
-                :class="{ 'text-light': nightMode }">
+                :class="{ 'text-light': nightMode }"
+              >
                 contact
-                </a>
+              </a>
             </li>
             <li class="nav-item ml-2 mx-2">
               <a
@@ -60,7 +76,7 @@
                 href="#"
                 @click.prevent="switchMode"
                 :class="{ 'text-light': nightMode }"
-                >
+              >
                 <i
                   :class="{
                     'fas fa-moon': nightMode,

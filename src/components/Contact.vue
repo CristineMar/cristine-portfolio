@@ -44,17 +44,22 @@
           :class="{ 'bg-pink': !nightMode, 'bg-dark': nightMode }"
         >
           <div class="modal-header">
-            <h5 class="modal-title" :class="{ 'text-dark': !nightMode, 'text-light': nightMode }" id="contactModalLabel">Contact me</h5>
+            <h5
+              class="modal-title"
+              :class="{ 'text-dark': !nightMode, 'text-light': nightMode }"
+              id="contactModalLabel"
+            >
+              Contact me
+            </h5>
             <button
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-              :class="{'bg-white': nightMode}"
+              :class="{ 'bg-white': nightMode }"
             ></button>
           </div>
           <div class="modal-body">
-            
             <form ref="form" @submit.prevent="sendEmail">
               <div class="mb-3">
                 <input
@@ -79,8 +84,12 @@
                   required
                   @blur="this.validEmail(email)"
                 />
-                <div id="emailHelp" class="form-text" :class="{ 'text-light': nightMode }">
-                  We'll never share your email with anyone else. <br>
+                <div
+                  id="emailHelp"
+                  class="form-text"
+                  :class="{ 'text-light': nightMode }"
+                >
+                  We'll never share your email with anyone else. <br />
                   <b>Please make sure that you use a valid email address.</b>
                 </div>
               </div>
@@ -106,7 +115,10 @@
                   required
                 ></textarea>
 
-                <span :class="{ 'text-light': nightMode , 'text-dark': !nightMode}">* all fields are required</span>
+                <span
+                  :class="{ 'text-light': nightMode, 'text-dark': !nightMode }"
+                  >* all fields are required</span
+                >
               </div>
               <div class="modal-footer">
                 <button
@@ -123,7 +135,10 @@
                   :class="{ 'text-light': nightMode }"
                   data-bs-dismiss="modal"
                   value="Send"
-                  :disabled="!message || !name || !this.validEmail(email) || !subject">
+                  :disabled="
+                    !message || !name || !this.validEmail(email) || !subject
+                  "
+                >
                   Send
                 </button>
               </div>
@@ -178,9 +193,10 @@ export default {
         );
     },
     validEmail: function (email) {
-      var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      var re =
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       return re.test(email);
-    }
+    },
   },
   mounted() {},
 };
@@ -223,8 +239,8 @@ export default {
 }
 
 .btn-outline-primary:disabled {
-    color: #e28194;
-    background-color: transparent;
+  color: #e28194;
+  background-color: transparent;
 }
 
 .border-btn {
