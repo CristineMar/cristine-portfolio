@@ -37,21 +37,18 @@ let info = {
       icon: "fas fa-tools",
     },
   ],
-  portfolio: [
+  projects: [
     {
       name: "",
       pictures: [
         /* {
             img: require("./src/assets/portfolio/todo-application/one.png")
-          },
-          {
-            img: require("./src/assets/portfolio/todo-application/two.png")
-          }, */
+          } */
       ],
       technologies: ["JavaScript", "HTML5", "Netlify"],
-      category: "web todo list  app ",
-      github: "https://github.com/Natain/todo-application",
-      visit: "https://natainbogdan.netlify.app/",
+      category: "",
+      github: "",
+      visit: "",
       description:
         "Todo Application was made to help me with the learning schedule and it seams was doing a great job this app helping me to organize all the daily tasks.",
     },
