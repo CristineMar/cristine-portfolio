@@ -50,9 +50,11 @@
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
+              :class="{'bg-white': nightMode}"
             ></button>
           </div>
           <div class="modal-body">
+            
             <form ref="form" @submit.prevent="sendEmail">
               <div class="mb-3">
                 <input
@@ -75,9 +77,11 @@
                   aria-describedby="emailHelp"
                   placeholder="Your email address here."
                   required
+                  @blur="this.validEmail(email)"
                 />
                 <div id="emailHelp" class="form-text" :class="{ 'text-light': nightMode }">
-                  We'll never share your email with anyone else.
+                  We'll never share your email with anyone else. <br>
+                  <b>Please make sure that you use a valid email address.</b>
                 </div>
               </div>
               <div class="mb-3">
@@ -119,7 +123,7 @@
                   :class="{ 'text-light': nightMode }"
                   data-bs-dismiss="modal"
                   value="Send"
-                  :disabled="!message || !name || !email || !subject">
+                  :disabled="!message || !name || !this.validEmail(email) || !subject">
                   Send
                 </button>
               </div>
@@ -148,6 +152,7 @@ export default {
       name: "",
       subject: "",
       message: "",
+      errors: [],
     };
   },
   methods: {
@@ -172,6 +177,10 @@ export default {
           }
         );
     },
+    validEmail: function (email) {
+      var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    }
   },
   mounted() {},
 };
