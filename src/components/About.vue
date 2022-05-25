@@ -150,10 +150,8 @@
             </button>
             <a
               type="button"
-              data-bs-dismiss="modal"
               class="btn btn-primary border-btn"
-              href="https://github.com/CristineMar/cristine-portfolio/blob/main/src/assets/pdf/Cristine_Marquez_CV_ENG.pdf"
-              target="_blank"
+              href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
               download="Cristine_Marquez_CV_ENG.pdf"
               >Download</a
             >
