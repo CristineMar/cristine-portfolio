@@ -49,9 +49,6 @@ export default {
     return {
       white: require("@/assets/images/white-logo-removebg.png"),
       black: require("@/assets/images/black-logo.png"),
-      text: ["I'm a web-developer. Nice to meet you.","Soy un desarrollador web. Un placer conocerte.", "Sono uno sviluppatore web. Piacere di conoscerti.", "저는 웹 개발자입니다. 만나서 반갑습니다.", "私はWeb開発者です。お会いできて嬉しいです。", "Jag är webbutvecklare. Trevligt att träffas.", "Isa akong web-developer. Ikinagagalak kitang makilala." ],
-      counter: 0,
-      textChangeId: "",
     };
   },
   methods: {
