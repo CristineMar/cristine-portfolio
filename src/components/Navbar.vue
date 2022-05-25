@@ -62,12 +62,11 @@
             </li>
             <li class="nav-item mx-2">
               <a
-                class="nav-link"
+                class="nav-link ppink"
                 href="/contact"
                 @click.prevent="$emit('scroll', 'contact')"
-                :class="{ 'text-light': nightMode }"
               >
-                contact
+                <b>contact</b>
               </a>
             </li>
             <li class="nav-item ml-2 mx-2">

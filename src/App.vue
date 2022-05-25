@@ -87,6 +87,12 @@ export default {
 </script>
 
 <style>
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 #app {
   font-family: "Assistant", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -129,7 +135,7 @@ h3 {
 }
 
 .ppink {
-  color: #e28194;
+  color: #e28194 !important;
 }
 
 .bg-dark2 {
@@ -166,5 +172,79 @@ hr {
   border: none;
   border-bottom: solid 1px #000000;
   opacity: 2 !important;
+}
+
+/* Buttons */
+
+/* primary */
+
+.btn-outline-primary {
+  border-color: #d26375 !important;
+  background-color: #d2637500 !important;
+  color: black !important;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+}
+
+.btn:focus {
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+    color: white !important;
+}
+
+.btn-outline-primary:disabled {
+  color: #d26375 !important;
+  background-color: transparent !important;
+}
+
+.border-btn {
+  border-color: #d26375 !important;
+}
+
+/* secondary */
+
+.btn-outline-secondary {
+  border-color: #7b7d7d !important;
+  color: black !important;
+}
+
+.btn-outline-secondary:hover {
+  color: white !important;
+  background-color: #7b7d7d !important;
+  border-color: #7b7d7d !important;
+}
+
+/* for btn cancel */
+
+.border-btn-cancel:focus {
+  background-color: #7b7d7d !important;
+  border-color: #7b7d7d !important;
+  color: black !important;
+}
+
+.border-btn-cancel {
+  border-color: #7b7d7d;
+}
+
+/* button-primary */
+
+.btn-primary:hover {
+  color: black !important;
+  background-color: #d2637500 !important;
+  border-color: #d26375 !important;
+}
+
+.btn-primary{
+  color: white;
+  background-color: #d26375 !important;
+  border-color: #d26375 !important;
+}
+
+.btn:focus {
+  outline: none !important;
 }
 </style>

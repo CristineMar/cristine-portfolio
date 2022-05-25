@@ -97,31 +97,6 @@ export default {
   font-size: 15px;
 }
 
-.btn-outline-primary {
-  border-color: #d26375;
-  color: black;
-}
-
-.btn-outline-primary:hover {
-    color: #fff;
-    background-color: #d26375 !important;
-    border-color: #d26375 !important;
-}
-
-.btn:focus {
-    background-color: #d26375 !important;
-    border-color: #d26375 !important;
-    color: white;
-}
-
-.btn {
-  border-color: #d26375;
-}
-
-.btn:focus {
-  outline: none !important;
-}
-
 p {
   text-align: justify;
   font-weight: 400;
@@ -166,4 +141,34 @@ color: black;
   /* color: #e28194; */
   color: #d26375
 }
+
+
+/* 
+
+.btn-outline-primary {
+  border-color: #d26375;
+  color: black;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+}
+
+.btn:focus {
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+    color: white;
+}
+
+.btn {
+  border-color: #d26375;
+}
+
+.btn:focus {
+  outline: none !important;
+}
+
+*/
 </style>

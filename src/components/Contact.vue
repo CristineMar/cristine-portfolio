@@ -21,7 +21,7 @@
       </h1>
       <!-- Button trigger modal -->
       <button
-        class="btn btn-outline-primary"
+        class="btn btn-outline-primary btn-lg"
         :class="{ 'text-light': nightMode }"
         data-bs-toggle="modal"
         data-bs-target="#contactModal"
@@ -100,7 +100,7 @@
                   class="form-control"
                   name="subject"
                   id="subject"
-                  placeholder="Subject"
+                  placeholder="Your subject here."
                   required
                 />
               </div>
@@ -131,7 +131,7 @@
                 </button>
                 <button
                   type="submit"
-                  class="btn btn-outline-primary border-btn"
+                  class="btn btn-primary border-btn"
                   :class="{ 'text-light': nightMode }"
                   data-bs-dismiss="modal"
                   value="Send"
@@ -221,21 +221,27 @@ export default {
   height: 30vh;
 }
 
+.bg-shadow {
+  box-shadow: 0 1px 3px rgba(8, 33, 30, 0.5);
+}
+
+/* 
 .btn-outline-primary {
-  border-color: #e28194;
+  border-color: #d26375;
+  background-color: #d2637500;
   color: black;
 }
 
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #e28194 !important;
-  border-color: #e28194 !important;
+    color: white;
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
 }
 
-.border-btn:focus {
-  background-color: #e28194 !important;
-  border-color: #e28194 !important;
-  color: white;
+.btn:focus {
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+    color: black;
 }
 
 .btn-outline-primary:disabled {
@@ -249,26 +255,36 @@ export default {
 
 .btn-outline-secondary {
   border-color: #7b7d7d;
-  color: black;
+  background-color: #7b7d7d;
+  color: white;
 }
 
 .btn-outline-secondary:hover {
-  color: #fff;
-  background-color: #7b7d7d !important;
+  color: black;
+  background-color: #7b7d7d00 !important;
   border-color: #7b7d7d !important;
 }
 
 .border-btn-cancel:focus {
-  background-color: #7b7d7d !important;
+  background-color: #7b7d7d00 !important;
   border-color: #7b7d7d !important;
-  color: white;
+  color: black;
 }
 
 .border-btn-cancel {
   border-color: #7b7d7d;
 }
 
-.bg-shadow {
-  box-shadow: 0 1px 3px rgba(8, 33, 30, 0.5);
+.btn-primary:hover {
+  color: black;
+  background-color: #e2819400 !important;
+  border-color: #e28194 !important;
 }
+
+.btn-primary{
+  color: white;
+  background-color: #e28194 !important;
+  border-color: #e28194 !important;
+}
+ */
 </style>

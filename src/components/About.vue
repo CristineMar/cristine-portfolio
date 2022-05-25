@@ -152,7 +152,7 @@
             <a
               type="button"
               data-bs-dismiss="modal"
-              class="btn btn-outline-primary border-btn"
+              class="btn btn-primary border-btn"
               href="../assets/pdf/Cristine_Marquez_CV_ENG.pdf"
               download="Cristine_Marquez_CV_ENG.pdf"
               >Download</a
@@ -221,6 +221,38 @@ export default {
   }
 }
 
+.w-icon {
+  color: #febfcb;
+}
+
+.fa {
+  font-size: 15px;
+}
+
+p {
+  text-align: justify;
+  font-weight: 400;
+}
+
+
+/* 
+
+.btn:focus {
+  outline: none !important;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: #e2819400 !important;
+  border-color: #e28194 !important;
+}
+
+.btn-primary{
+  color: white;
+  background-color: #e28194 !important;
+  border-color: #e28194 !important;
+}
+
 .btn-outline-primary {
   border-color: #e28194;
   color: black;
@@ -263,39 +295,7 @@ export default {
   border-color: #7b7d7d;
 }
 
-.w-icon {
-  color: #febfcb;
-}
-
-.fa {
-  font-size: 15px;
-}
-
-/* .btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
-}
-
-.btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
-}
-
-.btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
-  color: white;
-} */
-
-.btn:focus {
-  outline: none !important;
-}
-
-p {
-  text-align: justify;
-  font-weight: 400;
-}
+*/
 
 /* LEAVES */
 </style>

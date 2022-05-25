@@ -18,12 +18,12 @@ let info = {
   skills: [
     {
       title: "languages",
-      info: ["Javascript", "CSS", "HTML5", "JAVA"],
+      info: ["Javascript", "CSS3", "HTML5", "JAVA"],
       icon: "fa fa-code",
     },
     {
       title: "web technologies",
-      info: ["Vue.js", "Angular.js", "SCSS", "HTML", "CSS", "LARAVEL", "PHP"],
+      info: ["Vue.js", "Angular.js", "SCSS", "HTML5", "CSS3", "LARAVEL", "PHP"],
       icon: "fas fa-laptop-code",
     },
     {
