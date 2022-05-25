@@ -123,7 +123,12 @@
               :class="{ 'text-dark': !nightMode, 'text-dark': nightMode }"
               id="resumeModalLabel"
             >
-              Resume Cristine Marquez
+              <a
+              type="button"
+              class="btn btn-primary border-btn"
+              href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
+              download="Cristine_Marquez_CV_ENG.pdf"
+              >Download</a >
             </h5>
             <button
               type="button"
@@ -153,8 +158,7 @@
               class="btn btn-primary border-btn"
               href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
               download="Cristine_Marquez_CV_ENG.pdf"
-              >Download</a
-            >
+              >Download</a >
           </div>
         </div>
       </div>
