@@ -28,9 +28,14 @@
       <!-- WHAT I DO -->
       <div class="row align-items-center">
         <h3 class="text-center mb-4">What I do</h3>
-        <div class=" col-lg-3
-            col-md-6
-            col-sm-12 d-flex justify-content-center align-items-center flex-column"
+        <div
+          class="
+            col-lg-3 col-md-6 col-sm-12
+            d-flex
+            justify-content-center
+            align-items-center
+            flex-column
+          "
           data-aos="zoom-in"
           data-aos-easing="linear"
           data-aos-duration="1000"
@@ -41,9 +46,7 @@
         </div>
         <div
           class="
-            col-lg-3
-            col-md-6
-            col-sm-12
+            col-lg-3 col-md-6 col-sm-12
             d-flex
             justify-content-center
             align-items-center
@@ -60,9 +63,7 @@
         </div>
         <div
           class="
-            col-lg-3
-            col-md-6
-            col-sm-12
+            col-lg-3 col-md-6 col-sm-12
             d-flex
             justify-content-center
             align-items-center
@@ -79,9 +80,7 @@
         </div>
         <div
           class="
-            col-lg-3
-            col-md-6
-            col-sm-12
+            col-lg-3 col-md-6 col-sm-12
             d-flex
             justify-content-center
             align-items-center
@@ -136,7 +135,7 @@
           <div class="modal-body">
             <img
               class="img-fluid"
-              src="../assets/pdf/Cristine_Marquez_CV_ENG_page-0001.jpeg"
+              src="../assets/docs/Cristine_Marquez_CV_ENG_page-0001.jpeg"
               alt="resume cristine in english"
               srcset=""
             />
@@ -153,7 +152,8 @@
               type="button"
               data-bs-dismiss="modal"
               class="btn btn-primary border-btn"
-              href="../assets/pdf/Cristine_Marquez_CV_ENG.pdf"
+              href="https://github.com/CristineMar/cristine-portfolio/blob/main/src/assets/pdf/Cristine_Marquez_CV_ENG.pdf"
+              target="_blank"
               download="Cristine_Marquez_CV_ENG.pdf"
               >Download</a
             >
@@ -233,7 +233,6 @@ p {
   text-align: justify;
   font-weight: 400;
 }
-
 
 /* 
 

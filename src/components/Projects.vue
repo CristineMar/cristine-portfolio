@@ -41,8 +41,8 @@
                       A website for 112 emergencies to manage calls and send help.
                       Made with Vue2, Laravel, PHP, HTML, CSS
                     </p>
-                    <a href="https://youtu.be/r6vbTg7-T8c" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
-                    <a href="https://github.com/CristineMar/projecteBroggi" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
+                    <a href="https://youtu.be/r6vbTg7-T8c" target="_blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/projecteBroggi" target="_blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,8 @@
                     <p class="card-text text-black">
                       A platform game called DoodleJump in pure Javascript, HTML and CSS.
                     </p>
-                    <a href="https://cristinemar.github.io/DoodleJump/" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
-                    <a href="https://github.com/CristineMar/CristineMar.github.io/tree/gh_pages/DoodleJump" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
+                    <a href="https://cristinemar.github.io/DoodleJump/" target="_blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/CristineMar.github.io/tree/gh_pages/DoodleJump" target="_blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
@@ -92,8 +92,8 @@
                       A pokedex website to add, edit and delete pokemon on your pokemon list.
                       Made with PHP
                     </p>
-                    <a href="https://youtu.be/jkeuMssnFOU" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
-                    <a href="https://github.com/CristineMar/pokemonPHP" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
+                    <a href="https://youtu.be/jkeuMssnFOU" target="_blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/pokemonPHP" target="_blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
@@ -117,8 +117,8 @@
                     <p class="card-text text-black">
                       An ionic app with angular ang rick and morty API
                     </p>
-                    <a href="https://youtu.be/6C_8wyRRae8" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
-                    <a href="https://github.com/CristineMar/rickandmorty" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
+                    <a href="https://youtu.be/6C_8wyRRae8" target="_blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/rickandmorty" target="_blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
@@ -143,8 +143,8 @@
                       A list with to edit, delete, add and filter based on modules.
                       Made with Laravel and Vuejs
                     </p>
-                    <a href="https://youtu.be/DVACzkVQ65s" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
-                    <a href="https://github.com/CristineMar/ABP_Cristine_Marquez" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
+                    <a href="https://youtu.be/DVACzkVQ65s" target="_blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/ABP_Cristine_Marquez" target="_blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
