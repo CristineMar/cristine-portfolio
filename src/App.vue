@@ -244,6 +244,11 @@ hr {
   border-color: #d26375 !important;
 }
 
+.btn-primary:disabled {
+  color: #d26375 !important;
+  background-color: transparent !important;
+}
+
 .btn:focus {
   outline: none !important;
 }

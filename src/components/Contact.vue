@@ -117,7 +117,7 @@
 
                 <span
                   :class="{ 'text-light': nightMode, 'text-dark': !nightMode }"
-                  >* all fields are required</span
+                  >* all fields are required except name.</span
                 >
               </div>
               <div class="modal-footer">
@@ -136,7 +136,7 @@
                   data-bs-dismiss="modal"
                   value="Send"
                   :disabled="
-                    !message || !name || !this.validEmail(email) || !subject
+                    !message || !this.validEmail(email) || !subject
                   "
                 >
                   Send
