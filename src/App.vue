@@ -252,4 +252,8 @@ hr {
 .btn:focus {
   outline: none !important;
 }
+
+.txt-white {
+  color: white !important;
+}
 </style>

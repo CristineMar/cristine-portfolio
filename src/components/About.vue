@@ -99,7 +99,7 @@
       <div class="mt-5 d-flex justify-content-center">
         <button
           class="btn btn-outline-primary btn-lg"
-          :class="{ 'text-light': nightMode }"
+          :class="{ 'txt-white': nightMode }"
           data-bs-toggle="modal"
           data-bs-target="#resumeModal"
         >
