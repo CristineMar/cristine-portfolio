@@ -240,7 +240,7 @@ p {
 .btn-outline-primary {
   border-color: #d26375 !important;
   background-color: #d2637500 !important;
-  color: black ;
+  color: black;
 }
 
 .btn-outline-primary:hover {

@@ -217,7 +217,7 @@ color: black;
 .border-btn-cancel:focus {
   background-color: #7b7d7d !important;
   border-color: #7b7d7d !important;
-  color: black !important;
+  color: black ;
 }
 
 .border-btn-cancel {
