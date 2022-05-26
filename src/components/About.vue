@@ -99,7 +99,7 @@
       <div class="mt-5 d-flex justify-content-center">
         <button
           class="btn btn-outline-primary btn-lg"
-          :class="{ 'txt-white': nightMode }"
+          :class="{ 'text-white': nightMode }"
           data-bs-toggle="modal"
           data-bs-target="#resumeModal"
         >
@@ -234,6 +234,82 @@ export default {
 p {
   text-align: justify;
   font-weight: 400;
+}
+
+
+.btn-outline-primary {
+  border-color: #d26375 !important;
+  background-color: #d2637500 !important;
+  color: black ;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+}
+
+.btn:focus {
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+    color: white !important;
+}
+
+.btn-outline-primary:disabled {
+  color: #d26375 !important;
+  background-color: transparent !important;
+}
+
+.border-btn {
+  border-color: #d26375 !important;
+}
+
+/* secondary */
+
+.btn-outline-secondary {
+  border-color: #7b7d7d !important;
+  color: black !important;
+}
+
+.btn-outline-secondary:hover {
+  color: white !important;
+  background-color: #7b7d7d !important;
+  border-color: #7b7d7d !important;
+}
+
+/* for btn cancel */
+
+.border-btn-cancel:focus {
+  background-color: #7b7d7d !important;
+  border-color: #7b7d7d !important;
+  color: black !important;
+}
+
+.border-btn-cancel {
+  border-color: #7b7d7d;
+}
+
+/* button-primary */
+
+.btn-primary:hover {
+  color: black !important;
+  background-color: #d2637500 !important;
+  border-color: #d26375 !important;
+}
+
+.btn-primary{
+  color: white;
+  background-color: #d26375 !important;
+  border-color: #d26375 !important;
+}
+
+.btn-primary:disabled {
+  color: #d26375 !important;
+  background-color: transparent !important;
+}
+
+.btn:focus {
+  outline: none !important;
 }
 
 /* 
