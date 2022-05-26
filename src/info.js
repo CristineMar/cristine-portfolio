@@ -1,7 +1,7 @@
 let info = {
   name: "Cristine Marquez",
   logo_name: "Cristine",
-  flat_picture: require("./assets/images/hi.png"),
+  flat_picture: require("./assets/images/portrait.png"),
   config: {
     use_cookies: true,
     navbar: {
