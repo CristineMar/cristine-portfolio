@@ -12,10 +12,10 @@
       <!-- ABOUT ME -->
       <div class="row align-items-center">
         <h1 class="text-center">About me</h1>
-        <div class="col d-flex justify-content-center">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
           <img class="portrait" :src="picture" alt="picture face" />
         </div>
-        <div class="col d-flex justify-content-center">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
           <p>
             {{ description }}
           </p>
