@@ -268,7 +268,7 @@ p {
 
 .btn-outline-secondary {
   border-color: #7b7d7d !important;
-  color: black !important;
+  color: black ;
 }
 
 .btn-outline-secondary:hover {
