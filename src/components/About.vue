@@ -123,10 +123,10 @@
               :class="{ 'text-dark': !nightMode, 'text-dark': nightMode }"
               id="resumeModalLabel"
             >
-              <a
+             <a
               type="button"
               class="btn btn-primary border-btn"
-              href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
+              href="../assets/docs/CV_Cristine_Marquez_ENG.pdf"
               download="Cristine_Marquez_CV_ENG.pdf"
               >Download</a >
             </h5>
@@ -156,7 +156,7 @@
             <a
               type="button"
               class="btn btn-primary border-btn"
-              href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
+              href="../assets/docs/CV_Cristine_Marquez_ENG.pdf"
               download="Cristine_Marquez_CV_ENG.pdf"
               >Download</a >
           </div>
