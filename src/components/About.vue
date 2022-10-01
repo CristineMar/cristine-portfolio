@@ -126,8 +126,8 @@
              <a
               type="button"
               class="btn btn-primary border-btn"
-              href="src/assets/docs/Cristine_Marquez_CV_ENG.pdf"
-              download="Cristine_Marquez_CV_ENG.pdf"
+              href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
+              download
               >Download</a >
             </h5>
             <button
