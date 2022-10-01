@@ -140,7 +140,7 @@
           <div class="modal-body">
             <img
               class="img-fluid"
-              src="../assets/docs/Cristine_Marquez_CV_ENG_page-0001.jpeg"
+              src="../assets/docs/Cristine_Marquez_CV_ENG_page-0001.jpg"
               alt="resume cristine in english"
               srcset=""
             />
