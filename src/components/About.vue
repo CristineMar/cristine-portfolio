@@ -120,13 +120,13 @@
           <div class="modal-header">
             <h5
               class="modal-title"
-              :class="{ 'text-dark': !nightMode, 'text-dark': nightMode }"
+              :class="{ 'text-dark': !nightMode, 'text-white': nightMode }"
               id="resumeModalLabel"
             >
              <a
               type="button"
               class="btn btn-primary border-btn"
-              href="../assets/docs/CV_Cristine_Marquez_ENG.pdf"
+              href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
               download="Cristine_Marquez_CV_ENG.pdf"
               >Download</a >
             </h5>
@@ -156,7 +156,7 @@
             <a
               type="button"
               class="btn btn-primary border-btn"
-              href="../assets/docs/CV_Cristine_Marquez_ENG.pdf"
+              href="../assets/docs/Cristine_Marquez_CV_ENG.pdf"
               download="Cristine_Marquez_CV_ENG.pdf"
               >Download</a >
           </div>
